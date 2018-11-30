@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: aquamarine;
+}
+.text h1{
+    margin-top: 200px;
+    margin-left: q380px;
+    font-size: 80px;
+    color:rgba(100,100,100,1);
+     background-repeat: repeat-x;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: colors 5s linear infinite;
+    -ms-background-clip: text;
+    -ms-text-fill-color: transparent;
+}
+@keyframes colors{
+    0%{
+        background-color: red; top:0px;left: 10px;
+    }
+    40%{
+    background-color: royalblue; top: 800px; left: 10px;
+}
+}
+.text1 h1{
+    text-align: center;
+    margin-top: 200px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 90px;
+    color: rgba( 155,155,155,1);
+    background-image: url(milkyway.jpg.jpeg);
+    background-repeat: repeat-x;
+    -webkit-background-clip:text;
+    -ms-background-clip:text;
+    -webkit-text-fill-color:transparent;
+    animation: words 15s linear infinite;
+    
+
+    } 
+   @keyframes words{
+       0%{
+           background-position: top 0px; left: 10px;
+       }
+       40%{
+           background-position: top 800px; left: 10px; 
+       }
+   } 
+   
